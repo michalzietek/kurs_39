@@ -1,0 +1,58 @@
+commit 293c5c411034a511b704a71242a9215fa4dd88fe
+Author: michalzietkowski <michalzietkowski>
+Date:   Mon Oct 13 18:40:56 2025 +0200
+
+    dodanie przepisu na schabowego i rozinięcie przepisu na grzybową
+
+diff --git a/przepis_na_grzybowa.txt b/przepis_na_grzybowa.txt
+index d6113e3..8249a13 100644
+--- a/przepis_na_grzybowa.txt
++++ b/przepis_na_grzybowa.txt
+@@ -5,3 +5,6 @@ Składniki:
+ - natka pietruszki
+ - sól
+ - pieprz
++
++Sposób przygotowania:
++1. Zagotuj wodę
+diff --git a/przepis_na_schabowego.txt b/przepis_na_schabowego.txt
+new file mode 100644
+index 0000000..4631166
+--- /dev/null
++++ b/przepis_na_schabowego.txt
+@@ -0,0 +1,6 @@
++Składniki:
++- 150ml mleka
++- 450g schabu wieprzowego
++- smalec
++- sól
++- pieprz
+
+commit 82cd0fa2d564df9a245b85808e79860d37e06e7e
+Author: michalzietkowski <michalzietkowski>
+Date:   Mon Oct 13 18:34:34 2025 +0200
+
+    przepis na grzybowa v1
+
+diff --git a/przepis_na_grzybowa.txt b/przepis_na_grzybowa.txt
+index e69de29..d6113e3 100644
+--- a/przepis_na_grzybowa.txt
++++ b/przepis_na_grzybowa.txt
+@@ -0,0 +1,7 @@
++Składniki:
++- 500g grzybów
++- 300g ziemniaków
++- 2l wody
++- natka pietruszki
++- sól
++- pieprz
+
+commit 83f1e66c86c4186736ef97dbe864f0bcf31361a9
+Author: michalzietkowski <michalzietkowski>
+Date:   Mon Oct 13 18:29:15 2025 +0200
+
+    pierwszy zapis
+
+diff --git a/przepis_na_grzybowa.txt b/przepis_na_grzybowa.txt
+new file mode 100644
+index 0000000..e69de29
