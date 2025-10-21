@@ -1,4 +1,6 @@
-bardzo_tajne_haslo.txt
+prework/bardzo_tajne_haslo.txt
+
+.idea/
 # Created by https://www.toptal.com/developers/gitignore/api/python,pycharm,flask,venv,dotenv
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,pycharm,flask,venv,dotenv
 
