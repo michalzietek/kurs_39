@@ -32,8 +32,27 @@
 #         Średnia: 4.0
 #
 # ==========================================
-
+ilosc_poprawnych_ocen = 0
+liczba_ocen_niedostatecznych = 0
+liczba_ocen_dobrych = 0
+suma_ocen = 0
 ilosc_ocen = int(input("Podaj ilosc ocen: "))
 
 for numer_oceny in range(ilosc_ocen):
     ocena = int(input(f"Podaj ocenę {numer_oceny + 1}: "))
+    if ocena < 2 or ocena > 5:
+        print("Ocena spoza zakresu! Kończę wczytywanie.")
+        break
+    ilosc_poprawnych_ocen += 1
+    suma_ocen += ocena
+
+    if ocena == 2:
+        liczba_ocen_niedostatecznych += 1
+
+    if ocena == 4 or ocena == 5:
+        liczba_ocen_dobrych += 1
+
+print(f"Wczytano {ilosc_poprawnych_ocen} poprawnych ocen.")
+print(f"Niedostatecznych: {liczba_ocen_niedostatecznych}")
+print(f"Dobrych (4 lub 5): {liczba_ocen_dobrych}")
+print(f"Średnia: {suma_ocen / ilosc_poprawnych_ocen}")
