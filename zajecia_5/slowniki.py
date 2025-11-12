@@ -7,7 +7,7 @@ uczen_slownik = {
     "czy_obecnie_stdiuje": True,
     "oceny": [1, 2, 3],
     # "imie": "Kamil",
-    #[1, 2]: "test1"# unhashable type: 'list'
+    # [1, 2]: "test1"# unhashable type: 'list'
 }
 # POBIERANIE DANYCH
 # print(uczen_slownik)

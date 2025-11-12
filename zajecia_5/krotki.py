@@ -4,7 +4,7 @@ krotka_ciekawa = (True, 1.0, "Adam", None)
 krotka_3 = tuple(("Adam", "Ewa"))
 
 krotka_4 = "Adam", "Ewa"
-imie = "Michal",
+imie = ("Michal",)
 # print(uczniowie)
 # print(krotka_ciekawa)
 # print(krotka_3)

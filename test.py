@@ -1,3 +1,6 @@
+from operator import contains
+
 imie = "Michał"
-wiek = input("Podaj wiek: ")
-print(wiek)
+imiona = ["Michał", "Adam"]
+print(imie in imiona)
+print(imiona.__contains__(imie))

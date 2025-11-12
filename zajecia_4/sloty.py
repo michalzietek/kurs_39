@@ -64,5 +64,9 @@ if calkowita_wielkosc_filmow == 0:
 else:
     print(f"Rozmiar wszystkich filmów wynosi: {calkowita_wielkosc_filmow} MB")
     print(f"Ilość wykorzystanych slotów: {ilosc_slotow}")
-    print(f"Ilość pustej przestrzeni: {ilosc_slotow * maksymalna_pojemnosc_slotu - calkowita_wielkosc_filmow}")
-    print(f"Najlżejszy slot to: {slot_z_najmniej_zajetym_miejscem}, miał {maksymalna_pojemnosc_slotu - najlzejszy_slot} wolnego miejsca.")
+    print(
+        f"Ilość pustej przestrzeni: {ilosc_slotow * maksymalna_pojemnosc_slotu - calkowita_wielkosc_filmow}"
+    )
+    print(
+        f"Najlżejszy slot to: {slot_z_najmniej_zajetym_miejscem}, miał {maksymalna_pojemnosc_slotu - najlzejszy_slot} wolnego miejsca."
+    )

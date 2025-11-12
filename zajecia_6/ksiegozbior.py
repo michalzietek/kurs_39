@@ -24,6 +24,7 @@ Funkcje po wywołaniu danych komend są następujące:
 - Po każdej komendzie system wyświetla ponownie listę dostępnych opcji i prosi o wybór kolejnej.
 - Ochrona przed błędami użytkownika, takimi jak wpisywanie błędnych danych czy żądanie zakupu na wartości ujemne.
 """
+
 saldo_ksiegarni = 10000.0
 ksiegozbior = [
     {
@@ -34,8 +35,8 @@ ksiegozbior = [
         "ilosc_na_stanie": 4,
         "kategoria": "literatura dziecięca",
         "ilosc": 4,
-        "ISBN": "978-83-06-03345-7"
-     },
+        "ISBN": "978-83-06-03345-7",
+    },
     {
         "autor": "Adam Mickiewicz",
         "tytul": "Pan Tadeusz",
@@ -44,8 +45,8 @@ ksiegozbior = [
         "ilosc_na_stanie": 2,
         "kategoria": "poezja",
         "ilosc": 2,
-        "ISBN": "978-83-08-04212-1"
-     },
+        "ISBN": "978-83-08-04212-1",
+    },
     {
         "autor": "Juliusz Słowacki",
         "tytul": "Kordian",
@@ -54,8 +55,8 @@ ksiegozbior = [
         "ilosc_na_stanie": 3,
         "kategoria": "dramat",
         "ilosc": 3,
-        "ISBN": "978-83-08-04215-2"
-     },
+        "ISBN": "978-83-08-04215-2",
+    },
     {
         "autor": "Henryk Sienkiewicz",
         "tytul": "Quo Vadis",
@@ -64,11 +65,15 @@ ksiegozbior = [
         "ilosc_na_stanie": 5,
         "kategoria": "powieść historyczna",
         "ilosc": 5,
-        "ISBN": "978-83-06-03346-4"
-    }
+        "ISBN": "978-83-06-03346-4",
+    },
 ]
 
-historia = ["Dodano nową książkę 'Akademia Pana Kleksa'", "Zakupiono 2 egzemplarze 'Pan Tadeusz'", "Wypożyczono książkę o ISBN 978-83-06-03345-7"]
+historia = [
+    "Dodano nową książkę 'Akademia Pana Kleksa'",
+    "Zakupiono 2 egzemplarze 'Pan Tadeusz'",
+    "Wypożyczono książkę o ISBN 978-83-06-03345-7",
+]
 
 while True:
     wybor = input("""
@@ -85,12 +90,15 @@ Podaj numer komendy: """)
 
     match wybor:
         case "1":
-            srodki = float(input("Podaj kwotę do doładowania (lub ujemną do odjęcia): "))
+            srodki = float(
+                input("Podaj kwotę do doładowania (lub ujemną do odjęcia): ")
+            )
             if saldo_ksiegarni + srodki < 0:
                 print("Nie możesz ustawić salda na wartość ujemną.")
             else:
                 saldo_ksiegarni += srodki
                 print(f"Aktualne saldo: {saldo_ksiegarni:.2f} PLN")
+                historia.append(f"Zmiana salda o {srodki} PLN")
         case "2":
             numer_isbn = input("Podaj numer ISBN książki do wypożyczenia: ")
             znaleziono_ksiazke = False
@@ -117,16 +125,18 @@ Podaj numer komendy: """)
                 continue
             else:
                 saldo_ksiegarni -= koszt * ilosc
-            ksiegozbior.append({
-                "autor": autor,
-                "tytul": tytul,
-                "rok_wydania": rok_wydania,
-                "cena": koszt,
-                "ilosc_na_stanie": ilosc,
-                "kategoria": kategoria,
-                "ilosc": ilosc,
-                "ISBN": numer_isbn
-            })
+            ksiegozbior.append(
+                {
+                    "autor": autor,
+                    "tytul": tytul,
+                    "rok_wydania": rok_wydania,
+                    "cena": koszt,
+                    "ilosc_na_stanie": ilosc,
+                    "kategoria": kategoria,
+                    "ilosc": ilosc,
+                    "ISBN": numer_isbn,
+                }
+            )
         case "4":
             print(f"Aktualne saldo: {saldo_ksiegarni} PLN")
         case "5":
@@ -143,8 +153,12 @@ Podaj numer komendy: """)
             if not znaleziono_ksiazke:
                 print("Nie znaleziono książki o podanym numerze ISBN.")
         case "7":
-            od = input("Podaj wartość 'od' (numer transakcji), jeśli nie chcesz nic nie podawaj: ")
-            do = input("Podaj wartość 'do' (numer transakcji), jeśli nie chcesz nic nie podawaj: ")
+            od = input(
+                "Podaj wartość 'od' (numer transakcji), jeśli nie chcesz nic nie podawaj: "
+            )
+            do = input(
+                "Podaj wartość 'do' (numer transakcji), jeśli nie chcesz nic nie podawaj: "
+            )
             if od:
                 od = int(od)
             else:

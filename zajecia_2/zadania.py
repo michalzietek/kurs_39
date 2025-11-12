@@ -1,9 +1,4 @@
-
-
-
-"""
-
-"""
+""" """
 
 # Zadanie 1 — Porównanie wieku
 """
@@ -145,19 +140,28 @@ suma = cena_A * sztuki_A + cena_B * sztuki_B + cena_C * sztuki_C
 print(f"Suma zakupów: {suma}")
 print(f"Suma większa od budżetu? {suma > budzet}")
 
-print(f"Para produktów o tej samej cenie? {cena_A == cena_B or cena_A == cena_C or cena_B == cena_C}")
+print(
+    f"Para produktów o tej samej cenie? {cena_A == cena_B or cena_A == cena_C or cena_B == cena_C}"
+)
 
 print(f"Powyżej 10 sztuk? {sztuki_C + sztuki_B + sztuki_A > 10}")
 
 print(f"Czy jakaś cena jest równa 0? {cena_C == 0 or cena_B == 0 or cena_A == 0}")
 
-print(f"Budżet wystarczający i ceny powyżej 0? {budzet > suma and cena_C > 0 and cena_A > 0 and cena_B > 0}")
+print(
+    f"Budżet wystarczający i ceny powyżej 0? {budzet > suma and cena_C > 0 and cena_A > 0 and cena_B > 0}"
+)
 
-print(f"Jeden produkt 2x droższy od drugiego? {
-(cena_A >= 2 * cena_B) or (cena_A >= 2* cena_C) or
-(cena_B >= 2* cena_A) or (cena_B >= 2* cena_C) or
-(cena_C >= 2* cena_A) or (cena_C >= 2* cena_B)
-}")
+print(
+    f"Jeden produkt 2x droższy od drugiego? {
+        (cena_A >= 2 * cena_B)
+        or (cena_A >= 2 * cena_C)
+        or (cena_B >= 2 * cena_A)
+        or (cena_B >= 2 * cena_C)
+        or (cena_C >= 2 * cena_A)
+        or (cena_C >= 2 * cena_B)
+    }"
+)
 
 # Zadanie 7 — Bilety, zniżka i warunki zakupu
 """

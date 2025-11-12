@@ -23,5 +23,3 @@ match zawod:
         print("Jesteś programistą")
     case _:
         print("Nie wiemy jakim zawodem jesteś!")
-
-
