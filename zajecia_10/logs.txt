@@ -1,0 +1,8 @@
+INFO User logged in
+ERROR Failed to load profile
+INFO User clicked button
+WARNING Low disk space
+ERROR Connection timeout
+INFO User logged out
+INFO Program się uruchomił
+ERROR Błąd połączenia 

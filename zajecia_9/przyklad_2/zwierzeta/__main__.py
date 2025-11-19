@@ -1,0 +1,1 @@
+print("To jest nasz pakiet zwierzęta")
