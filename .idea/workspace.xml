@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0460894b-bb8e-4d15-a9d7-15c8c12f6a6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zajecia_11/collections_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_11/csv_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_11/datetime_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_11/os_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_11/ppirnt_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_11/random_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_11/regex_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_11/sys_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_12/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_12/file_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_12/matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_12/matrix_transform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_12/my_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_12/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_12/tests/test_my_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_13/external_libraries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_13/skrotowe_operacje.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_14/countries_selector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_14/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_14/file_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +39,10 @@
   "keyToString": {
     "Python.__main__.executor": "Run",
     "Python.collections_module.executor": "Run",
+    "Python.countries_selector.executor": "Run",
     "Python.csv_module.executor": "Run",
     "Python.datetime_module.executor": "Run",
+    "Python.external_libraries.executor": "Run",
     "Python.file_handler.executor": "Run",
     "Python.funkcje.executor": "Run",
     "Python.hashable.executor": "Run",
@@ -75,6 +66,7 @@
     "Python.ppirnt_module.executor": "Run",
     "Python.random_module.executor": "Run",
     "Python.regex_module.executor": "Run",
+    "Python.skrotowe_operacje.executor": "Run",
     "Python.sloty.executor": "Run",
     "Python.slowniki.executor": "Run",
     "Python.sys_module.executor": "Run",
@@ -92,7 +84,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.completions.CompletionsConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -105,8 +97,8 @@
       <recent name="$PROJECT_DIR$/prework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.my_module">
-    <configuration name="matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.countries_selector">
+    <configuration name="countries_selector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurs_39" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,12 +107,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_12/matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_14/countries_selector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="external_libraries" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kurs_39" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_13/external_libraries.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="regex_module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="skrotowe_operacje" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurs_39" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,35 +199,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_13" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_11/regex_module.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="kurs_39" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_13/skrotowe_operacje.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,19 +214,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.countries_selector" />
+      <item itemvalue="Python.external_libraries" />
+      <item itemvalue="Python.skrotowe_operacje" />
       <item itemvalue="Python.my_module" />
-      <item itemvalue="Python.matrix" />
       <item itemvalue="Python.matrix_transform" />
-      <item itemvalue="Python.regex_module" />
-      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.countries_selector" />
+        <item itemvalue="Python.external_libraries" />
+        <item itemvalue="Python.skrotowe_operacje" />
         <item itemvalue="Python.my_module" />
         <item itemvalue="Python.matrix_transform" />
-        <item itemvalue="Python.matrix" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.regex_module" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +265,9 @@
       <workItem from="1762964862698" duration="6386000" />
       <workItem from="1763397196695" duration="6003000" />
       <workItem from="1763567973077" duration="8830000" />
-      <workItem from="1764001772708" duration="13885000" />
+      <workItem from="1764001772708" duration="15065000" />
+      <workItem from="1764606506190" duration="7881000" />
+      <workItem from="1764779488422" duration="2900000" />
     </task>
     <servers />
   </component>
@@ -293,6 +287,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kurs_39$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1764177468706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_12" />
+    <SUITE FILE_PATH="coverage/kurs_39$countries_selector.coverage" NAME="countries_selector Coverage Results" MODIFIED="1764784674072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_14" />
     <SUITE FILE_PATH="coverage/kurs_39$collections_module.coverage" NAME="collections_module Coverage Results" MODIFIED="1764005606589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
     <SUITE FILE_PATH="coverage/kurs_39$datetime_module.coverage" NAME="datetime_module Coverage Results" MODIFIED="1764006465646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
     <SUITE FILE_PATH="coverage/kurs_39$my_module.coverage" NAME="my_module Coverage Results" MODIFIED="1764179409611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_12" />
@@ -310,6 +305,7 @@
     <SUITE FILE_PATH="coverage/kurs_39$listy.coverage" NAME="listy Coverage Results" MODIFIED="1762792761639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_5" />
     <SUITE FILE_PATH="coverage/kurs_39$random_module.coverage" NAME="random_module Coverage Results" MODIFIED="1764004467392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
     <SUITE FILE_PATH="coverage/kurs_39$klasy.coverage" NAME="klasy Coverage Results" MODIFIED="1762797131683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_7" />
+    <SUITE FILE_PATH="coverage/kurs_39$external_libraries.coverage" NAME="external_libraries Coverage Results" MODIFIED="1764610373994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_13" />
     <SUITE FILE_PATH="coverage/kurs_39$hashable.coverage" NAME="hashable Coverage Results" MODIFIED="1762192564861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_5" />
     <SUITE FILE_PATH="coverage/kurs_39$operacje_na_plikach.coverage" NAME="operacje_na_plikach Coverage Results" MODIFIED="1763402488703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_9" />
     <SUITE FILE_PATH="coverage/kurs_39$file_handler.coverage" NAME="file_handler Coverage Results" MODIFIED="1763571886287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_10/zadanie_ksiegarnia" />
@@ -321,6 +317,7 @@
     <SUITE FILE_PATH="coverage/kurs_39$krotki.coverage" NAME="krotki Coverage Results" MODIFIED="1762191717639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_5" />
     <SUITE FILE_PATH="coverage/kurs_39$instrukcje_warunkowe.coverage" NAME="instrukcje_warunkowe Coverage Results" MODIFIED="1761585251174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_3" />
     <SUITE FILE_PATH="coverage/kurs_39$petle_while.coverage" NAME="petle_while Coverage Results" MODIFIED="1761586632647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_3" />
+    <SUITE FILE_PATH="coverage/kurs_39$skrotowe_operacje.coverage" NAME="skrotowe_operacje Coverage Results" MODIFIED="1764609098562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_13" />
     <SUITE FILE_PATH="coverage/kurs_39$lotnisko.coverage" NAME="lotnisko Coverage Results" MODIFIED="1762969869618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_8" />
     <SUITE FILE_PATH="coverage/kurs_39$zwierzogrod.coverage" NAME="zwierzogrod Coverage Results" MODIFIED="1763400205809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_9/przyklad_2" />
     <SUITE FILE_PATH="coverage/kurs_39$test.coverage" NAME="test Coverage Results" MODIFIED="1764085576668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

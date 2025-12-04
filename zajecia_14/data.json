@@ -1,0 +1,21 @@
+[
+    {
+        "full_name": "Poland",
+        "capital": [
+            "Warsaw"
+        ],
+        "region": "Europe",
+        "subregion": "Central Europe",
+        "population": 37392000,
+        "languages": {
+            "pol": "Polish"
+        },
+        "currency": {
+            "PLN": {
+                "symbol": "z\u0142",
+                "name": "Polish z\u0142oty"
+            }
+        },
+        "flag": "https://flagcdn.com/pl.svg"
+    }
+]
