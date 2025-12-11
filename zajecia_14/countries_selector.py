@@ -54,10 +54,13 @@ def modify_data_from_api_to_our_dict(response_data):
     return result
 
 user_country = input("Podaj nazwę kraju w języku angielskim: ")
+if country := file_handler.check_country_exists(user_country):
+    print("Kraj znajduje się już w pliku. Oto jego dane:")
+    print(country)
+else:
+    response_data = get_data_from_countries_api(user_country)
 
-response_data = get_data_from_countries_api(user_country)
+    modified_data = modify_data_from_api_to_our_dict(response_data)
 
-modified_data = modify_data_from_api_to_our_dict(response_data)
-
-file_handler.data.append(modified_data)
-file_handler.write_file()
+    file_handler.data.append(modified_data)
+    file_handler.write_file()

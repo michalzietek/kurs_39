@@ -12,3 +12,8 @@ class FileHandler:
     def write_file(self):
         with open(self.filename, 'w') as file:
             file.write(json.dumps(self.data, indent=4))
+
+    def check_country_exists(self, country_name):
+        for country in self.data:
+            if country.get("full_name").lower() == country_name.lower():
+                return country
