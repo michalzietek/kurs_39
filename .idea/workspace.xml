@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0460894b-bb8e-4d15-a9d7-15c8c12f6a6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zajecia_16/countries_selector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_16/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_16/file_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_16/lambdas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_16/struktura_danych.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_16/weather_forecast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_17/abstakcja.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_17/hermetyzacja.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_17/hermetyzacja_przyklad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_17/kompozycja.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_17/polimorfizm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_18/file_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_18/in.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_18/matrix_transform.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,74 +38,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.__main__.executor": "Run",
-    "Python.collections_module.executor": "Run",
-    "Python.countries_selector (1).executor": "Run",
-    "Python.countries_selector.executor": "Run",
-    "Python.csv_module.executor": "Run",
-    "Python.datetime_module.executor": "Run",
-    "Python.external_libraries.executor": "Run",
-    "Python.file_handler.executor": "Run",
-    "Python.funkcje.executor": "Run",
-    "Python.generators_and_iterators.executor": "Run",
-    "Python.generators_test.executor": "Run",
-    "Python.hashable.executor": "Run",
-    "Python.hello_world.executor": "Run",
-    "Python.homework_example.executor": "Run",
-    "Python.instrukcje_warunkowe.executor": "Run",
-    "Python.klasy.executor": "Run",
-    "Python.krotki.executor": "Run",
-    "Python.ksiegozbior.executor": "Run",
-    "Python.lambdas.executor": "Run",
-    "Python.listy.executor": "Debug",
-    "Python.lotnisko.executor": "Run",
-    "Python.magic_methods.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main_do_1_przykladu.executor": "Run",
-    "Python.match_case.executor": "Run",
-    "Python.matrix.executor": "Run",
-    "Python.matrix_transform.executor": "Run",
-    "Python.my_module.executor": "Run",
-    "Python.operacje_na_plikach.executor": "Run",
-    "Python.os_module.executor": "Run",
-    "Python.petle_for.executor": "Run",
-    "Python.petle_while.executor": "Run",
-    "Python.ppirnt_module.executor": "Run",
-    "Python.random_module.executor": "Run",
-    "Python.regex_module.executor": "Run",
-    "Python.scratch_9.executor": "Run",
-    "Python.skrotowe_operacje.executor": "Run",
-    "Python.sloty.executor": "Run",
-    "Python.slowniki.executor": "Run",
-    "Python.sys_module.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.typing.executor": "Run",
-    "Python.weather_forecast.executor": "Run",
-    "Python.zadania.executor": "Run",
-    "Python.zadanie.executor": "Run",
-    "Python.zbiory.executor": "Run",
-    "Python.zwierzogrod.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "last_opened_file_path": "/home/michal/future_collars/kurs_39/zajecia_16",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.__main__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.abstakcja.executor&quot;: &quot;Run&quot;,
+    &quot;Python.collections_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.countries_selector (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.countries_selector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.csv_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datetime_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dziedziczenie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.external_libraries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file_handler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funkcje.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funkcje_klasowe_i_statyczne.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generators_and_iterators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generators_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hashable.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello_world.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hermetyzacja.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hermetyzacja_przyklad.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.instrukcje_warunkowe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.klasy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kompozycja.executor&quot;: &quot;Run&quot;,
+    &quot;Python.krotki.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ksiegozbior.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lambdas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listy.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.lotnisko.executor&quot;: &quot;Run&quot;,
+    &quot;Python.magic_methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_do_1_przykladu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.match_case.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matrix_transform.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operacje_na_plikach.executor&quot;: &quot;Run&quot;,
+    &quot;Python.os_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.petle_for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.petle_while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.polimorfizm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ppirnt_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.regex_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.skrotowe_operacje.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sloty.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slowniki.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sys_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.typing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.weather_forecast.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wyjatki.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadania.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zbiory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zwierzogrod.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/michal/future_collars/kurs_39/zajecia_18&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zajecia_18" />
       <recent name="$PROJECT_DIR$/zajecia_16" />
       <recent name="$PROJECT_DIR$/zajecia_10/zadanie_ksiegarnia" />
       <recent name="$PROJECT_DIR$/zajecia_9" />
@@ -113,8 +124,8 @@
       <recent name="$PROJECT_DIR$/prework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lambdas">
-    <configuration name="countries_selector (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.matrix_transform">
+    <configuration name="abstakcja" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurs_39" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,12 +134,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_17" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_16/countries_selector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_17/abstakcja.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generators_and_iterators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hermetyzacja" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurs_39" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,12 +157,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_17" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_15/generators_and_iterators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_17/hermetyzacja.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lambdas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hermetyzacja_przyklad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurs_39" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,12 +180,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_17" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_16/lambdas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_17/hermetyzacja_przyklad.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratch_9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="matrix_transform" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurs_39" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,13 +203,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_18" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_9.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_18/matrix_transform.py" />
+      <option name="PARAMETERS" value="out.pkl out3.csv add,row,0,25 mult,col,2,2" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -206,7 +217,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="weather_forecast" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="polimorfizm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurs_39" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,12 +226,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_17" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_16/weather_forecast.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_17/polimorfizm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,19 +241,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.countries_selector (1)" />
-      <item itemvalue="Python.lambdas" />
-      <item itemvalue="Python.scratch_9" />
-      <item itemvalue="Python.weather_forecast" />
-      <item itemvalue="Python.generators_and_iterators" />
+      <item itemvalue="Python.abstakcja" />
+      <item itemvalue="Python.hermetyzacja" />
+      <item itemvalue="Python.hermetyzacja_przyklad" />
+      <item itemvalue="Python.matrix_transform" />
+      <item itemvalue="Python.polimorfizm" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lambdas" />
-        <item itemvalue="Python.weather_forecast" />
-        <item itemvalue="Python.scratch_9" />
-        <item itemvalue="Python.countries_selector (1)" />
-        <item itemvalue="Python.generators_and_iterators" />
+        <item itemvalue="Python.matrix_transform" />
+        <item itemvalue="Python.hermetyzacja" />
+        <item itemvalue="Python.hermetyzacja_przyklad" />
+        <item itemvalue="Python.abstakcja" />
+        <item itemvalue="Python.polimorfizm" />
       </list>
     </recent_temporary>
   </component>
@@ -287,6 +298,8 @@
       <workItem from="1764923505845" duration="11000" />
       <workItem from="1765384172141" duration="6181000" />
       <workItem from="1765816128293" duration="5282000" />
+      <workItem from="1765989060534" duration="6510000" />
+      <workItem from="1767025963023" duration="5823000" />
     </task>
     <servers />
   </component>
@@ -305,52 +318,60 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/kurs_39$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1764177468706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_12" />
     <SUITE FILE_PATH="coverage/kurs_39$countries_selector.coverage" NAME="countries_selector Coverage Results" MODIFIED="1765385073087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_14" />
-    <SUITE FILE_PATH="coverage/kurs_39$collections_module.coverage" NAME="collections_module Coverage Results" MODIFIED="1764005606589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
     <SUITE FILE_PATH="coverage/kurs_39$datetime_module.coverage" NAME="datetime_module Coverage Results" MODIFIED="1764006465646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
     <SUITE FILE_PATH="coverage/kurs_39$lambdas.coverage" NAME="lambdas Coverage Results" MODIFIED="1765819464519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_16" />
-    <SUITE FILE_PATH="coverage/kurs_39$my_module.coverage" NAME="my_module Coverage Results" MODIFIED="1764179409611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_12" />
     <SUITE FILE_PATH="coverage/kurs_39$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1760979403227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_1" />
+    <SUITE FILE_PATH="coverage/kurs_39$hermetyzacja.coverage" NAME="hermetyzacja Coverage Results" MODIFIED="1767029873203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_17" />
+    <SUITE FILE_PATH="coverage/kurs_39$main.coverage" NAME="main Coverage Results" MODIFIED="1763574937199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_10" />
+    <SUITE FILE_PATH="coverage/kurs_39$ppirnt_module.coverage" NAME="ppirnt_module Coverage Results" MODIFIED="1764005175280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
+    <SUITE FILE_PATH="coverage/kurs_39$regex_module.coverage" NAME="regex_module Coverage Results" MODIFIED="1764007185005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
+    <SUITE FILE_PATH="coverage/kurs_39$kompozycja.coverage" NAME="kompozycja Coverage Results" MODIFIED="1767026811794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_17" />
+    <SUITE FILE_PATH="coverage/kurs_39$homework_example.coverage" NAME="homework_example Coverage Results" MODIFIED="1765384813320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_14" />
+    <SUITE FILE_PATH="coverage/kurs_39$generators_test.coverage" NAME="generators_test Coverage Results" MODIFIED="1765388627032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_15" />
+    <SUITE FILE_PATH="coverage/kurs_39$klasy.coverage" NAME="klasy Coverage Results" MODIFIED="1762797131683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_7" />
+    <SUITE FILE_PATH="coverage/kurs_39$operacje_na_plikach.coverage" NAME="operacje_na_plikach Coverage Results" MODIFIED="1763402488703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_9" />
+    <SUITE FILE_PATH="coverage/kurs_39$sloty.coverage" NAME="sloty Coverage Results" MODIFIED="1761759107965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_4" />
+    <SUITE FILE_PATH="coverage/kurs_39$ksiegozbior.coverage" NAME="ksiegozbior Coverage Results" MODIFIED="1763572585797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_10/zadanie_ksiegarnia" />
+    <SUITE FILE_PATH="coverage/kurs_39$petle_while.coverage" NAME="petle_while Coverage Results" MODIFIED="1761586632647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_3" />
+    <SUITE FILE_PATH="coverage/kurs_39$test.coverage" NAME="test Coverage Results" MODIFIED="1764085576668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kurs_39$generators_and_iterators.coverage" NAME="generators_and_iterators Coverage Results" MODIFIED="1765389359374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_15" />
+    <SUITE FILE_PATH="coverage/kurs_39$zadanie.coverage" NAME="zadanie Coverage Results" MODIFIED="1762449425648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_4" />
+    <SUITE FILE_PATH="coverage/kurs_39$match_case.coverage" NAME="match_case Coverage Results" MODIFIED="1761666883062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_3" />
+    <SUITE FILE_PATH="coverage/kurs_39$typing.coverage" NAME="typing Coverage Results" MODIFIED="1763573052538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_10" />
+    <SUITE FILE_PATH="coverage/kurs_39$matrix_transform.coverage" NAME="matrix_transform Coverage Results" MODIFIED="1767031004000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_18" />
+    <SUITE FILE_PATH="coverage/kurs_39$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1764177468706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_12" />
+    <SUITE FILE_PATH="coverage/kurs_39$hermetyzacja_przyklad.coverage" NAME="hermetyzacja_przyklad Coverage Results" MODIFIED="1767029659878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_17" />
+    <SUITE FILE_PATH="coverage/kurs_39$collections_module.coverage" NAME="collections_module Coverage Results" MODIFIED="1764005606589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
+    <SUITE FILE_PATH="coverage/kurs_39$abstakcja.coverage" NAME="abstakcja Coverage Results" MODIFIED="1767028661752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_17" />
+    <SUITE FILE_PATH="coverage/kurs_39$my_module.coverage" NAME="my_module Coverage Results" MODIFIED="1764179409611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_12" />
     <SUITE FILE_PATH="coverage/kurs_39$funkcje.coverage" NAME="funkcje Coverage Results" MODIFIED="1762967202861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_7" />
     <SUITE FILE_PATH="coverage/kurs_39$weather_forecast.coverage" NAME="weather_forecast Coverage Results" MODIFIED="1765819018790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_16" />
-    <SUITE FILE_PATH="coverage/kurs_39$main.coverage" NAME="main Coverage Results" MODIFIED="1763574937199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_10" />
     <SUITE FILE_PATH="coverage/kurs_39$slowniki.coverage" NAME="slowniki Coverage Results" MODIFIED="1762448714581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_5" />
-    <SUITE FILE_PATH="coverage/kurs_39$ppirnt_module.coverage" NAME="ppirnt_module Coverage Results" MODIFIED="1764005175280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
     <SUITE FILE_PATH="coverage/kurs_39$countries_selector__1_.coverage" NAME="countries_selector (1) Coverage Results" MODIFIED="1765818000608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_16" />
+    <SUITE FILE_PATH="coverage/kurs_39$wyjatki.coverage" NAME="wyjatki Coverage Results" MODIFIED="1765992540470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_17" />
     <SUITE FILE_PATH="coverage/kurs_39$zbiory.coverage" NAME="zbiory Coverage Results" MODIFIED="1762192595973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_5" />
     <SUITE FILE_PATH="coverage/kurs_39$csv_module.coverage" NAME="csv_module Coverage Results" MODIFIED="1764004855495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
-    <SUITE FILE_PATH="coverage/kurs_39$regex_module.coverage" NAME="regex_module Coverage Results" MODIFIED="1764007185005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
     <SUITE FILE_PATH="coverage/kurs_39$main_do_1_przykladu.coverage" NAME="main_do_1_przykladu Coverage Results" MODIFIED="1763398895588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_9/przyklad_2/zagniezdzenie" />
-    <SUITE FILE_PATH="coverage/kurs_39$homework_example.coverage" NAME="homework_example Coverage Results" MODIFIED="1765384813320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_14" />
+    <SUITE FILE_PATH="coverage/kurs_39$dziedziczenie.coverage" NAME="dziedziczenie Coverage Results" MODIFIED="1765994464586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_17" />
     <SUITE FILE_PATH="coverage/kurs_39$os_module.coverage" NAME="os_module Coverage Results" MODIFIED="1764003788157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
-    <SUITE FILE_PATH="coverage/kurs_39$generators_test.coverage" NAME="generators_test Coverage Results" MODIFIED="1765388627032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_15" />
     <SUITE FILE_PATH="coverage/kurs_39$petle_for.coverage" NAME="petle_for Coverage Results" MODIFIED="1761587560192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_3" />
     <SUITE FILE_PATH="coverage/kurs_39$listy.coverage" NAME="listy Coverage Results" MODIFIED="1762792761639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_5" />
     <SUITE FILE_PATH="coverage/kurs_39$random_module.coverage" NAME="random_module Coverage Results" MODIFIED="1764004467392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
-    <SUITE FILE_PATH="coverage/kurs_39$klasy.coverage" NAME="klasy Coverage Results" MODIFIED="1762797131683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_7" />
     <SUITE FILE_PATH="coverage/kurs_39$external_libraries.coverage" NAME="external_libraries Coverage Results" MODIFIED="1764610373994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_13" />
+    <SUITE FILE_PATH="coverage/kurs_39$polimorfizm.coverage" NAME="polimorfizm Coverage Results" MODIFIED="1767028537950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_17" />
     <SUITE FILE_PATH="coverage/kurs_39$hashable.coverage" NAME="hashable Coverage Results" MODIFIED="1762192564861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_5" />
-    <SUITE FILE_PATH="coverage/kurs_39$operacje_na_plikach.coverage" NAME="operacje_na_plikach Coverage Results" MODIFIED="1763402488703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_9" />
+    <SUITE FILE_PATH="coverage/kurs_39$funkcje_klasowe_i_statyczne.coverage" NAME="funkcje_klasowe_i_statyczne Coverage Results" MODIFIED="1765991520520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_17" />
     <SUITE FILE_PATH="coverage/kurs_39$file_handler.coverage" NAME="file_handler Coverage Results" MODIFIED="1763571886287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_10/zadanie_ksiegarnia" />
     <SUITE FILE_PATH="coverage/kurs_39$sys_module.coverage" NAME="sys_module Coverage Results" MODIFIED="1764002861115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
-    <SUITE FILE_PATH="coverage/kurs_39$sloty.coverage" NAME="sloty Coverage Results" MODIFIED="1761759107965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_4" />
-    <SUITE FILE_PATH="coverage/kurs_39$ksiegozbior.coverage" NAME="ksiegozbior Coverage Results" MODIFIED="1763572585797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_10/zadanie_ksiegarnia" />
     <SUITE FILE_PATH="coverage/kurs_39$zadania.coverage" NAME="zadania Coverage Results" MODIFIED="1761151260923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_2" />
     <SUITE FILE_PATH="coverage/kurs_39$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1763400163649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_9/przyklad_2/zwierzeta" />
     <SUITE FILE_PATH="coverage/kurs_39$scratch_9.coverage" NAME="scratch_9 Coverage Results" MODIFIED="1765818433004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/kurs_39$krotki.coverage" NAME="krotki Coverage Results" MODIFIED="1762191717639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_5" />
     <SUITE FILE_PATH="coverage/kurs_39$instrukcje_warunkowe.coverage" NAME="instrukcje_warunkowe Coverage Results" MODIFIED="1761585251174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_3" />
     <SUITE FILE_PATH="coverage/kurs_39$magic_methods.coverage" NAME="magic_methods Coverage Results" MODIFIED="1765386525184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_15" />
-    <SUITE FILE_PATH="coverage/kurs_39$petle_while.coverage" NAME="petle_while Coverage Results" MODIFIED="1761586632647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_3" />
     <SUITE FILE_PATH="coverage/kurs_39$skrotowe_operacje.coverage" NAME="skrotowe_operacje Coverage Results" MODIFIED="1764609098562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_13" />
-    <SUITE FILE_PATH="coverage/kurs_39$lotnisko.coverage" NAME="lotnisko Coverage Results" MODIFIED="1762969869618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_8" />
     <SUITE FILE_PATH="coverage/kurs_39$zwierzogrod.coverage" NAME="zwierzogrod Coverage Results" MODIFIED="1763400205809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_9/przyklad_2" />
-    <SUITE FILE_PATH="coverage/kurs_39$test.coverage" NAME="test Coverage Results" MODIFIED="1764085576668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/kurs_39$generators_and_iterators.coverage" NAME="generators_and_iterators Coverage Results" MODIFIED="1765389359374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_15" />
-    <SUITE FILE_PATH="coverage/kurs_39$zadanie.coverage" NAME="zadanie Coverage Results" MODIFIED="1762449425648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_4" />
-    <SUITE FILE_PATH="coverage/kurs_39$match_case.coverage" NAME="match_case Coverage Results" MODIFIED="1761666883062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_3" />
-    <SUITE FILE_PATH="coverage/kurs_39$typing.coverage" NAME="typing Coverage Results" MODIFIED="1763573052538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_10" />
-    <SUITE FILE_PATH="coverage/kurs_39$matrix_transform.coverage" NAME="matrix_transform Coverage Results" MODIFIED="1764178227345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_12" />
+    <SUITE FILE_PATH="coverage/kurs_39$lotnisko.coverage" NAME="lotnisko Coverage Results" MODIFIED="1762969869618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_8" />
   </component>
 </project>
