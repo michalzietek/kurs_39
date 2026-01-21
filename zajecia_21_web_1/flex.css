@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    gap: 10%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    background-color: darkkhaki;
+    padding: 3%;
+}

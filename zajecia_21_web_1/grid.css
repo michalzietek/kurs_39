@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    gap: 2%;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    grid-template-rows: 3fr repeat(2, 1fr);
+    height: 50vh;
+}
+
+.box {
+    background-color: deeppink;
+    text-align: center;
+    margin: 2%;
+    padding: 3%;
+    border: grey 5px solid;
+}
+
+#specjalny {
+    background-color: rebeccapurple;
+    color: beige;
+    font-family: "DejaVu Sans Mono";
+}
+
+body {
+    font-family: "JetBrains Mono";
+}

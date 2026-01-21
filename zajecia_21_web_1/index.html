@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Magia Michała</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="pierwszy-div" class="divowe">
+        <h1>Najwiekszy naglowkek</h1>
+        <h2>Troche mniejszy</h2>
+        <h6>Najmniejszy naglowek</h6>
+        <p>Tutaj zazwyczaj jest treść artykułu, nie jest domyślnie pogrubione</p>
+    </div>
+    <div class="divowe">
+        <img src="https://aniakubica.com/wp-content/uploads/2021/03/wzorcowy-opis-obrazu.jpg" alt="Tutaj powinien być obrazek">
+        <a href="https://www.sport.pl/sport-hp/0,0.html">Tutaj wejdź na sport.pl</a>
+    </div>
+    <div>
+        <ul>
+            <li>Pierwszy element</li>
+            <li>Drugi element</li>
+            <li>Trzeci element</li>
+        </ul>
+    </div>
+    <div>
+        <ol>
+            <li>Pierwsze zadanie</li>
+            <li>Drugie zadanie</li>
+            <li>Trzecie zadanie</li>
+            <!--komentarz-->
+        </ol>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Wiek</th>
+            </tr>
+            <tr>
+                <td>Michał</td>
+                <td>Ziętkowski</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Jan</td>
+                <td>Ahonnen</td>
+                <td>50</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <form>
+            <h2>Formularz kontaktowy</h2>
+            <div>
+                <label>Imię: </label>
+                <input type="text" name="imie" placeholder="Tutaj wpisz swoje imię">
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="email" placeholder="Wpisz swój adres email" required>
+            </div>
+            <div>
+                <label>Płeć: </label>
+                <select name="plec">
+                    <option value="mężczyzna">Mężczyzna</option>
+                    <option value="kobieta">Kobieta</option>
+                </select>
+                <input type="radio" value="mężczyzna" name="plec">
+                <label>Mężczyzna</label>
+                <input type="radio" value="kobieta" name="plec">
+                <label>Kobieta</label>
+                <input type="radio" value="Nie chce mowic" name="plec">
+                <label>Nie chcę mówić</label>
+            </div>
+            <button type="submit">Wyślij prośbę</button>
+        </form>
+
+    </div>
+</body>
+</html>

@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0460894b-bb8e-4d15-a9d7-15c8c12f6a6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zajecia_19/Interface_segregation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_19/args_kwargs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_19/dekoratory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_19/dependency_inversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_19/liskov_substitution_principle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_19/open_close_principle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_19/single_responsibility_principle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_20/lotnisko.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_20/monitoring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_20/zadanie_domowe/inventory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_20/zadanie_domowe/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_20/zadanie_domowe/monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_20/zadanie_domowe/order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/bootstrap_example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/flex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_22_web_2/ksiegarnia.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_22_web_2/ksiegarnia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_22_web_2/static/bookstore.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zajecia_12/in.csv" beforeDir="false" afterPath="$PROJECT_DIR$/zajecia_12/in.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python.__main__.executor": "Run",
     "Python.abstakcja.executor": "Run",
     "Python.args_kwargs.executor": "Run",
@@ -104,13 +105,15 @@
     "Python.zwierzogrod.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "last_opened_file_path": "/home/michal/future_collars/kurs_39/zajecia_20",
+    "last_opened_file_path": "/home/michal/future_collars/kurs_39/zajecia_22_web_2/static",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -121,11 +124,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zajecia_22_web_2/static" />
       <recent name="$PROJECT_DIR$/zajecia_20" />
       <recent name="$PROJECT_DIR$/zajecia_18" />
       <recent name="$PROJECT_DIR$/zajecia_16" />
       <recent name="$PROJECT_DIR$/zajecia_10/zadanie_ksiegarnia" />
-      <recent name="$PROJECT_DIR$/zajecia_9" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/zajecia_15" />
@@ -249,10 +252,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.lotnisko" />
       <item itemvalue="Python.args_kwargs" />
       <item itemvalue="Python.dekoratory" />
       <item itemvalue="Python.hermetyzacja" />
+      <item itemvalue="Python.lotnisko" />
       <item itemvalue="Python.matrix_transform" />
     </list>
     <recent_temporary>
@@ -310,7 +313,12 @@
       <workItem from="1767025963023" duration="5884000" />
       <workItem from="1767773929268" duration="6000" />
       <workItem from="1767800518643" duration="8276000" />
-      <workItem from="1768234108649" duration="6291000" />
+      <workItem from="1768234108649" duration="7685000" />
+      <workItem from="1768296949869" duration="24000" />
+      <workItem from="1768319035340" duration="6809000" />
+      <workItem from="1768409839281" duration="3781000" />
+      <workItem from="1768466428607" duration="13000" />
+      <workItem from="1768495303913" duration="12094000" />
     </task>
     <servers />
   </component>

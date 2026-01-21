@@ -1,0 +1,24 @@
+h1 {
+    color: coral;
+}
+
+h2 {
+    color: fuchsia;
+}
+
+div {
+    background-color: grey;
+}
+
+body {
+    font-family: "Bitstream Charter";
+    background-color: aquamarine;
+}
+
+#pierwszy-div{
+    background-color: beige;
+}
+
+.divowe {
+    background-color: rebeccapurple;
+}
