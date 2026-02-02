@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0460894b-bb8e-4d15-a9d7-15c8c12f6a6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/bootstrap_example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/flex.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/flex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_21_web_1/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_22_web_2/ksiegarnia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_22_web_2/ksiegarnia.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zajecia_22_web_2/static/bookstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_23_web_3/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_23_web_3/templates/core.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_23_web_3/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zajecia_23_web_3/templates/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zajecia_12/in.csv" beforeDir="false" afterPath="$PROJECT_DIR$/zajecia_12/in.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,85 +36,86 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.__main__.executor": "Run",
-    "Python.abstakcja.executor": "Run",
-    "Python.args_kwargs.executor": "Run",
-    "Python.collections_module.executor": "Run",
-    "Python.countries_selector (1).executor": "Run",
-    "Python.countries_selector.executor": "Run",
-    "Python.csv_module.executor": "Run",
-    "Python.datetime_module.executor": "Run",
-    "Python.dekoratory.executor": "Run",
-    "Python.dziedziczenie.executor": "Run",
-    "Python.external_libraries.executor": "Run",
-    "Python.file_handler.executor": "Run",
-    "Python.funkcje.executor": "Run",
-    "Python.funkcje_klasowe_i_statyczne.executor": "Run",
-    "Python.generators_and_iterators.executor": "Run",
-    "Python.generators_test.executor": "Run",
-    "Python.hashable.executor": "Run",
-    "Python.hello_world.executor": "Run",
-    "Python.hermetyzacja.executor": "Run",
-    "Python.hermetyzacja_przyklad.executor": "Run",
-    "Python.homework_example.executor": "Run",
-    "Python.instrukcje_warunkowe.executor": "Run",
-    "Python.klasy.executor": "Run",
-    "Python.kompozycja.executor": "Run",
-    "Python.krotki.executor": "Run",
-    "Python.ksiegozbior.executor": "Run",
-    "Python.lambdas.executor": "Run",
-    "Python.listy.executor": "Debug",
-    "Python.lotnisko.executor": "Run",
-    "Python.magic_methods.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main_do_1_przykladu.executor": "Run",
-    "Python.match_case.executor": "Run",
-    "Python.matrix.executor": "Run",
-    "Python.matrix_transform.executor": "Run",
-    "Python.my_module.executor": "Run",
-    "Python.operacje_na_plikach.executor": "Run",
-    "Python.os_module.executor": "Run",
-    "Python.petle_for.executor": "Run",
-    "Python.petle_while.executor": "Run",
-    "Python.polimorfizm.executor": "Run",
-    "Python.ppirnt_module.executor": "Run",
-    "Python.random_module.executor": "Run",
-    "Python.regex_module.executor": "Run",
-    "Python.scratch_9.executor": "Run",
-    "Python.skrotowe_operacje.executor": "Run",
-    "Python.sloty.executor": "Run",
-    "Python.slowniki.executor": "Run",
-    "Python.sys_module.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.typing.executor": "Run",
-    "Python.weather_forecast.executor": "Run",
-    "Python.wyjatki.executor": "Run",
-    "Python.zadania.executor": "Run",
-    "Python.zadanie.executor": "Run",
-    "Python.zbiory.executor": "Run",
-    "Python.zwierzogrod.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "last_opened_file_path": "/home/michal/future_collars/kurs_39/zajecia_22_web_2/static",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.__main__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.abstakcja.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.args_kwargs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.collections_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.countries_selector (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.countries_selector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.csv_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datetime_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dekoratory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dziedziczenie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.external_libraries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file_handler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funkcje.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funkcje_klasowe_i_statyczne.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generators_and_iterators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generators_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hashable.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello_world.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hermetyzacja.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hermetyzacja_przyklad.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.instrukcje_warunkowe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.klasy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kompozycja.executor&quot;: &quot;Run&quot;,
+    &quot;Python.krotki.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ksiegozbior.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lambdas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listy.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.lotnisko.executor&quot;: &quot;Run&quot;,
+    &quot;Python.magic_methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_do_1_przykladu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.match_case.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matrix_transform.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operacje_na_plikach.executor&quot;: &quot;Run&quot;,
+    &quot;Python.os_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.petle_for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.petle_while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.polimorfizm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ppirnt_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.regex_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.skrotowe_operacje.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sloty.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slowniki.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sys_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.typing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.weather_forecast.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wyjatki.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadania.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zbiory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zwierzogrod.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/michal/future_collars/kurs_39/zajecia_22_web_2/static&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/zajecia_22_web_2/static" />
@@ -131,11 +125,35 @@
       <recent name="$PROJECT_DIR$/zajecia_10/zadanie_ksiegarnia" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zajecia_23_web_3" />
       <recent name="$PROJECT_DIR$/zajecia_15" />
       <recent name="$PROJECT_DIR$/prework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lotnisko">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kurs_39" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_23_web_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_23_web_3/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="args_kwargs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurs_39" />
       <option name="ENV_FILES" value="" />
@@ -174,29 +192,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_19/dekoratory.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hermetyzacja" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="kurs_39" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zajecia_17" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zajecia_17/hermetyzacja.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,19 +247,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.app" />
       <item itemvalue="Python.args_kwargs" />
       <item itemvalue="Python.dekoratory" />
-      <item itemvalue="Python.hermetyzacja" />
       <item itemvalue="Python.lotnisko" />
       <item itemvalue="Python.matrix_transform" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.lotnisko" />
         <item itemvalue="Python.dekoratory" />
         <item itemvalue="Python.args_kwargs" />
         <item itemvalue="Python.matrix_transform" />
-        <item itemvalue="Python.hermetyzacja" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +313,9 @@
       <workItem from="1768319035340" duration="6809000" />
       <workItem from="1768409839281" duration="3781000" />
       <workItem from="1768466428607" duration="13000" />
-      <workItem from="1768495303913" duration="12094000" />
+      <workItem from="1768495303913" duration="17932000" />
+      <workItem from="1769418357996" duration="11000" />
+      <workItem from="1769418446568" duration="3000" />
     </task>
     <servers />
   </component>
@@ -332,6 +329,11 @@
           <url>file://$PROJECT_DIR$/zajecia_12/matrix_transform.py</url>
           <line>40</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zajecia_23_web_3/app.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -384,6 +386,7 @@
     <SUITE FILE_PATH="coverage/kurs_39$funkcje_klasowe_i_statyczne.coverage" NAME="funkcje_klasowe_i_statyczne Coverage Results" MODIFIED="1765991520520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_17" />
     <SUITE FILE_PATH="coverage/kurs_39$file_handler.coverage" NAME="file_handler Coverage Results" MODIFIED="1763571886287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_10/zadanie_ksiegarnia" />
     <SUITE FILE_PATH="coverage/kurs_39$sys_module.coverage" NAME="sys_module Coverage Results" MODIFIED="1764002861115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_11" />
+    <SUITE FILE_PATH="coverage/kurs_39$app.coverage" NAME="app Coverage Results" MODIFIED="1769017553503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_23_web_3" />
     <SUITE FILE_PATH="coverage/kurs_39$zadania.coverage" NAME="zadania Coverage Results" MODIFIED="1761151260923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_2" />
     <SUITE FILE_PATH="coverage/kurs_39$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1763400163649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zajecia_9/przyklad_2/zwierzeta" />
     <SUITE FILE_PATH="coverage/kurs_39$scratch_9.coverage" NAME="scratch_9 Coverage Results" MODIFIED="1765818433004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />

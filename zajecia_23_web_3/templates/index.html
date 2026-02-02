@@ -1,0 +1,17 @@
+{% extends "core.html" %}
+
+{% block content %}
+  <h1>Witaj świecie</h1>
+  {% if imie %}
+  <h2>Witaj {{ imie }}</h2>
+  {% else %}
+  <h2>Niestety nie wiem kim jesteś</h2>
+  {% endif %}
+  {% if wiek < 18 %}
+  <h3>Niestety nie jesteś pełnoletni</h3>
+  {% elif wiek >= 18 and wiek < 65 %}
+  <h3>Powinieneś pracować</h3>
+  {% else %}
+  <h3>Powinienieś być na emeryturze</h3>
+  {% endif %}
+{% endblock %}

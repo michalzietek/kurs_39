@@ -1,0 +1,28 @@
+{% extends "core.html" %}
+
+{% block content %}
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Surname</th>
+      <th>Age</th>
+    </tr>
+    {% for user in users %}
+    <tr>
+      <td>{{ user.name }}</td>
+      <td>{{ user.surname }}</td>
+      <td>{{ user.age }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  <form method="post">
+    <h2>Add user: </h2>
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name">
+    <label for="surname">Surname: </label>
+    <input type="text" id="surname" name="surname">
+    <label for="age">Age: </label>
+    <input type="number" name="age" id="age">
+    <button type="submit">Add user</button>
+  </form>
+{% endblock %}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <nav>
+    <button>
+      <a href="{{url_for('main_view')}}">Strona główna</a>
+    </button>
+    <button>
+      <a href="/users">Użytkownicy</a>
+    </button>
+  </nav>
+  {% block content %}
+  {% endblock %}
+  <h6>To jest footer naszej strony</h6>
+</body>
+</html>
