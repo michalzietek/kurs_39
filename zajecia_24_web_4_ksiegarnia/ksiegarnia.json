@@ -1,5 +1,5 @@
 {
-    "saldo": 14086.0,
+    "saldo": 1980.0,
     "historia": [
         "Dodano nową książkę 'Akademia Pana Kleksa'",
         "Zakupiono 2 egzemplarze 'Pan Tadeusz'",
@@ -7,7 +7,18 @@
         "Zmiana salda o 3000.0 PLN",
         "Zmiana salda o -33.0 PLN",
         "Zmiana salda o 58.0 PLN",
-        "Zmiana salda o 1111.0 PLN"
+        "Zmiana salda o 1111.0 PLN",
+        "Wypożyczono książkę o ISBN 978-83-06-03345-7",
+        "Wypożyczono książkę o ISBN 978-83-08-04215-2",
+        "Wypożyczono książkę o ISBN 978-83-08-04215-2",
+        "Wypożyczono książkę o ISBN 978-83-08-04215-2",
+        "Wypożyczono książkę o ISBN 978-83-08-04215-2",
+        "Wypożyczono książkę o ISBN 978-83-06-03345-7",
+        "Wypożyczono książkę o ISBN 1234",
+        "Wypożyczono książkę o ISBN 978-83-08-04215-2",
+        "Wypożyczono książkę o ISBN 1234",
+        "Wypożyczono książkę o ISBN 1234",
+        "Wypożyczono książkę o ISBN 978-83-06-03345-7"
     ],
     "ksiegozbior": [
         {
@@ -15,7 +26,7 @@
             "tytul": "Akademia Pana Kleksa",
             "rok_wydania": 1946,
             "cena": 25.5,
-            "ilosc_na_stanie": 4,
+            "ilosc_na_stanie": 0,
             "kategoria": "literatura dziecięca",
             "ilosc": 4,
             "ISBN": "978-83-06-03345-7"
@@ -35,7 +46,7 @@
             "tytul": "Kordian",
             "rok_wydania": 1834,
             "cena": 20.0,
-            "ilosc_na_stanie": 3,
+            "ilosc_na_stanie": -2,
             "kategoria": "dramat",
             "ilosc": 3,
             "ISBN": "978-83-08-04215-2"
@@ -55,9 +66,19 @@
             "tytul": "Narnia 2.0",
             "rok_wydania": 2025,
             "cena": 10.0,
-            "ilosc_na_stanie": 5,
+            "ilosc_na_stanie": 2,
             "kategoria": "Fantasy",
             "ilosc": 5,
+            "ISBN": "1234"
+        },
+        {
+            "autor": "Jan Sapkowski",
+            "tytul": "Wiedzmin",
+            "rok_wydania": "1234",
+            "cena": 30.0,
+            "ilosc_na_stanie": 4,
+            "kategoria": "fantasy",
+            "ilosc": 4,
             "ISBN": "1234"
         }
     ]

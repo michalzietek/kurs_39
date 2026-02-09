@@ -1,23 +1,9 @@
 import json
-#
-#
-# def load_data():
-#     with open("ksiegarnia_example.json") as file:
-#         # text = file.read()
-#         # list_text = text.split("}")
-#         # print(list_text)
-#         text = json.load(file)
-#         print(text)
-#
-# load_data()
+
 
 class FileHandler:
     def __init__(self, filepath):
         self.file = filepath
-        # self.krotka = self.load_data_from_file()
-        # self.saldo = self.krotka[0]
-        # self.historia = self.krotka[1]
-        # self.ksiegozbior = self.krotka[2]
         self.saldo, self.historia, self.ksiegozbior = self.load_data_from_file()
 
     def load_data_from_file(self):

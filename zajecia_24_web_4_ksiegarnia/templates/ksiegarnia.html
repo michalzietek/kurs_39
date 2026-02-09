@@ -1,124 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Ksiegarnia Michała</title>
-    <link rel="stylesheet" href="ksiegarnia.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Księgarnia Michała</title>
+    <link rel="stylesheet" href="/static/ksiegarnia.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
-    <div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Księgarnia u Michała</a>
-        <div>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Histora</a>
-            </li>
-          </ul>
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/history">Historia</a>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center ms-auto">
+          <span class="navbar-text fw-bold me-2">Saldo:</span>
+          <span class="badge bg-success fs-6">{{ saldo }} zł</span>
         </div>
       </div>
     </nav>
-    </div>
-    <div class="hero_section">
-        <div id="header_hero">
-            <h1>Witamy </h1>
-            <h3>w księgarni u Michała</h3>
-        </div>
 
-        <img src="static/bookstore.png" class="rounded mx-auto d-block">
-    </div>
-    <div class="hero_section">
-        <h3>Saldo: 10000zł</h3>
-        <table class="table table-bordered table-primary">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Nazwa książki</th>
-              <th scope="col">Autor</th>
-              <th scope="col">Ilość sztuk</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>John</td>
-              <td>Doe</td>
-              <td>@social</td>
-            </tr>
-          </tbody>
-        </table>
-    </div>
-    <div class="hero_section">
-        <div>
-            <h6>Zmiana salda: </h6>
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nowe Saldo</label>
-                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Podaj kwotę, o którą chcesz zmienić saldo</div>
-              </div>
-              <button type="submit" class="btn btn-primary">Zmiana</button>
-            </form>
-        </div>
-                <div>
-            <h6>Wypożyczenie książki: </h6>
-            <form>
-              <div class="mb-3">
-                <label for="ISBNrentNumber" class="form-label">Numer ISBN</label>
-                <input type="text" class="form-control" id="ISBNrentNumber" aria-describedby="emailHelp">
-                <div id="ISBNrent" class="form-text">Podaj numer ISBN książki</div>
-              </div>
-              <button type="submit" class="btn btn-primary">Wypożycz</button>
-            </form>
-        </div>
-        <div>
-            <h6>Zakup książki: </h6>
-            <form>
-              <div class="mb-3">
-                <label for="ISBNBuyNumber" class="form-label">Numer ISBN</label>
-                <input type="text" class="form-control" id="ISBNBuyNumber" aria-describedby="emailHelp" placeholder="Numer ISBN">
-              </div>
-                              <div class="mb-3">
-                <label for="ISBNBuyNumber" class="form-label">Numer ISBN</label>
-                <input type="text" class="form-control" id="ISBNBuyNumber" aria-describedby="emailHelp" placeholder="Numer ISBN">
-              </div>              <div class="mb-3">
-                <label for="ISBNBuyNumber" class="form-label">Numer ISBN</label>
-                <input type="text" class="form-control" id="ISBNBuyNumber" aria-describedby="emailHelp" placeholder="Numer ISBN">
-              </div>              <div class="mb-3">
-                <label for="ISBNBuyNumber" class="form-label">Numer ISBN</label>
-                <input type="text" class="form-control" id="ISBNBuyNumber" aria-describedby="emailHelp" placeholder="Numer ISBN">
-              </div>              <div class="mb-3">
-                <label for="ISBNBuyNumber" class="form-label">Numer ISBN</label>
-                <input type="text" class="form-control" id="ISBNBuyNumber" aria-describedby="emailHelp" placeholder="Numer ISBN">
-              </div>              <div class="mb-3">
-                <label for="ISBNBuyNumber" class="form-label">Numer ISBN</label>
-                <input type="text" class="form-control" id="ISBNBuyNumber" aria-describedby="emailHelp" placeholder="Numer ISBN">
-              </div>              <div class="mb-3">
-                <label for="ISBNBuyNumber" class="form-label">Numer ISBN</label>
-                <input type="text" class="form-control" id="ISBNBuyNumber" aria-describedby="emailHelp" placeholder="Numer ISBN">
-              </div>              <div class="mb-3">
-                <label for="ISBNBuyNumber" class="form-label">Numer ISBN</label>
-                <input type="text" class="form-control" id="ISBNBuyNumber" aria-describedby="emailHelp" placeholder="Numer ISBN">
-              </div>
-              <button type="submit" class="btn btn-primary">Zmiana</button>
-            </form>
-        </div>
-    </div>
+    <section class="hero-section overflow-hidden">
+      <img src="/static/bookstore.png" alt="Księgarnia" class="hero-image">
+      <div class="hero-overlay">
+        <h1 class="hero-title">Witamy w księgarni u Michała</h1>
+      </div>
+    </section>
 
+    <main class="container-fluid flex-grow-1 py-4">
+      <section class="mb-4">
+        <h2 class="h5 mb-3 text-muted">Księgozbiór</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped table-hover align-middle">
+            <thead class="table-primary">
+              <tr>
+                <th scope="col" class="text-center" style="width: 4rem;">#</th>
+                <th scope="col">Nazwa książki</th>
+                <th scope="col">Autor</th>
+                <th scope="col" class="text-center">Ilość sztuk</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for book in ksiegozbior %}
+              <tr>
+                <th scope="row" class="text-center">{{ loop.index }}</th>
+                <td>{{ book.tytul }}</td>
+                <td>{{ book.autor }}</td>
+                <td class="text-center">{{ book.ilosc_na_stanie }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </section>
 
+      <hr class="my-4">
+
+      <section class="forms-section">
+        <h2 class="h5 mb-4 text-muted">Akcje</h2>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title h6 mb-3">Zmiana salda</h3>
+                <form method="post">
+                  <input type="hidden" name="form_type" value="change_saldo">
+                  <div class="mb-3">
+                    <label for="saldoInput" class="form-label">Kwota (zł)</label>
+                    <input type="number" step="0.01" class="form-control" id="saldoInput" name="new_saldo" placeholder="np. 100 lub -50">
+                    <div class="form-text">Dodaj lub odejmij od salda</div>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Zmień saldo</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title h6 mb-3">Wypożyczenie książki</h3>
+                <form method="post">
+                  <input type="hidden" name="form_type" value="rent_a_book">
+                  <div class="mb-3">
+                    <label for="ISBN_rent" class="form-label">Książka</label>
+                    <select class="form-select" id="ISBN_rent" name="ISBN_rent" required>
+                      <option value="">— Wybierz książkę —</option>
+                      {% for book in ksiegozbior %}
+                      <option value="{{ book.ISBN }}">{{ book.tytul }} ({{ book.autor }}) – na stanie: {{ book.ilosc_na_stanie }}</option>
+                      {% endfor %}
+                    </select>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Wypożycz</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title h6 mb-3">Zakup książki do księgarni</h3>
+                <p class="form-text small mb-3">Dodaj nową pozycję (dostawa).</p>
+                <form method="post">
+                  <input type="hidden" name="form_type" value="buy_book">
+                  <div class="mb-2">
+                    <label for="buy_tytul" class="form-label">Tytuł</label>
+                    <input type="text" class="form-control form-control-sm" id="buy_tytul" name="tytul" required placeholder="np. Pan Tadeusz">
+                  </div>
+                  <div class="mb-2">
+                    <label for="buy_autor" class="form-label">Autor</label>
+                    <input type="text" class="form-control form-control-sm" id="buy_autor" name="autor" required placeholder="np. Adam Mickiewicz">
+                  </div>
+                  <div class="row g-2 mb-2">
+                    <div class="col-7">
+                      <label for="buy_isbn" class="form-label">ISBN</label>
+                      <input type="text" class="form-control form-control-sm" id="buy_isbn" name="ISBN" required placeholder="978-83-08-04212-1">
+                    </div>
+                    <div class="col-5">
+                      <label for="buy_rok" class="form-label">Rok</label>
+                      <input type="number" class="form-control form-control-sm" id="buy_rok" name="rok_wydania" min="1" max="2100" required placeholder="1834">
+                    </div>
+                  </div>
+                  <div class="row g-2 mb-2">
+                    <div class="col-6">
+                      <label for="buy_cena" class="form-label">Cena (zł)</label>
+                      <input type="number" class="form-control form-control-sm" id="buy_cena" name="cena" min="0" step="0.01" required placeholder="30">
+                    </div>
+                    <div class="col-6">
+                      <label for="buy_ilosc" class="form-label">Sztuk</label>
+                      <input type="number" class="form-control form-control-sm" id="buy_ilosc" name="ilosc" min="1" value="1" required>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="buy_kategoria" class="form-label">Kategoria</label>
+                    <input type="text" class="form-control form-control-sm" id="buy_kategoria" name="kategoria" required placeholder="np. poezja">
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Dodaj do księgozbioru</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+Y0AXoQdSO1a6l/vE2wN" crossorigin="anonymous"></script>
 </body>
 </html>
