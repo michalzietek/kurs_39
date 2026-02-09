@@ -1,0 +1,64 @@
+{
+    "saldo": 14086.0,
+    "historia": [
+        "Dodano nową książkę 'Akademia Pana Kleksa'",
+        "Zakupiono 2 egzemplarze 'Pan Tadeusz'",
+        "Wypożyczono książkę o ISBN 978-83-06-03345-7",
+        "Zmiana salda o 3000.0 PLN",
+        "Zmiana salda o -33.0 PLN",
+        "Zmiana salda o 58.0 PLN",
+        "Zmiana salda o 1111.0 PLN"
+    ],
+    "ksiegozbior": [
+        {
+            "autor": "Jan Brzechwa",
+            "tytul": "Akademia Pana Kleksa",
+            "rok_wydania": 1946,
+            "cena": 25.5,
+            "ilosc_na_stanie": 4,
+            "kategoria": "literatura dziecięca",
+            "ilosc": 4,
+            "ISBN": "978-83-06-03345-7"
+        },
+        {
+            "autor": "Adam Mickiewicz",
+            "tytul": "Pan Tadeusz",
+            "rok_wydania": 1834,
+            "cena": 30.0,
+            "ilosc_na_stanie": 2,
+            "kategoria": "poezja",
+            "ilosc": 2,
+            "ISBN": "978-83-08-04212-1"
+        },
+        {
+            "autor": "Juliusz Słowacki",
+            "tytul": "Kordian",
+            "rok_wydania": 1834,
+            "cena": 20.0,
+            "ilosc_na_stanie": 3,
+            "kategoria": "dramat",
+            "ilosc": 3,
+            "ISBN": "978-83-08-04215-2"
+        },
+        {
+            "autor": "Henryk Sienkiewicz",
+            "tytul": "Quo Vadis",
+            "rok_wydania": 1896,
+            "cena": 35.0,
+            "ilosc_na_stanie": 5,
+            "kategoria": "powieść historyczna",
+            "ilosc": 5,
+            "ISBN": "978-83-06-03346-4"
+        },
+        {
+            "autor": "Michał Ziętkowski",
+            "tytul": "Narnia 2.0",
+            "rok_wydania": 2025,
+            "cena": 10.0,
+            "ilosc_na_stanie": 5,
+            "kategoria": "Fantasy",
+            "ilosc": 5,
+            "ISBN": "1234"
+        }
+    ]
+}

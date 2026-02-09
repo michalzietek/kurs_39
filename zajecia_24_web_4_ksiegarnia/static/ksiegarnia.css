@@ -1,0 +1,13 @@
+.hero_section{
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+}
+
+img {
+    max-width: 50%;
+}
+
+#header_hero{
+    padding: 10%;
+}
