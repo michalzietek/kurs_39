@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Historia – Księgarnia u Michała</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Księgarnia u Michała</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/history">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Strona główna</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    {% include '_flash_toasts.html' %}
+
+    <main class="container flex-grow-1 py-4">
+      <h1 class="h4 mb-3">Historia operacji</h1>
+      {% if history %}
+        <ul class="list-group">
+          {% for entry in history %}
+            <li class="list-group-item">{{ entry }}</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="text-muted">Brak wpisów w historii.</p>
+      {% endif %}
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+Y0AXoQdSO1a6l/vE2wN" crossorigin="anonymous"></script>
+</body>
+</html>
